@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'wiki-search';
+  onTerm(event: string) {
+    console.log(`i am the app and here is the term ${event}`);
+  }
 }
