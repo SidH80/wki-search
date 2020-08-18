@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WikiSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# wki-search
+>>>>>>> 0b39ac2a2185b2c6ec7e90f0b9268d40f4be1e38
