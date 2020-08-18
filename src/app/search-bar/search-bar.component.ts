@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-bar.component.css']
 })
 export class SearchBarComponent implements OnInit {
-
+  term = '';
   constructor() { }
 
   ngOnInit() {
   }
 
+  onFormSubmit(event: any) {
+    event.preventDefault();
+    console.log(this.term);
+  }
 }

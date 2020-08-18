@@ -1,1 +1,4 @@
-<input type="text">
+
+<form (submit)="onFormSubmit($event)">
+  <input type="text" (input)="term = $event.target.value">
+</form>
